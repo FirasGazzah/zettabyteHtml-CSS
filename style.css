@@ -1,0 +1,63 @@
+
+.centered {
+  text-align: center;
+  align-content: center;
+}
+
+p:hover {
+	color: red;
+}
+img {
+  max-width: inherit;
+  width: inherit;
+}
+button {
+	  float: right;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 1px;
+  background-color: #2196F3;
+  padding: 1px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div li {
+  float: left;
+}
+
+div li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div li a:hover {
+  background-color: green;
+}
+.row {
+  display: flex;
+}
+.row > div {
+  flex: 1;
+  border: 1px solid;
+}
