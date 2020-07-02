@@ -31,7 +31,7 @@ table, th, td {
   padding: 20px 0;
   font-size: 30px;
 }
-div ul {
+.navigateur ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,11 +39,11 @@ div ul {
   background-color: #333;
 }
 
-div li {
+.navigateur li {
   float: left;
 }
 
-div li a {
+.navigateur li a {
   display: block;
   color: white;
   text-align: center;
@@ -51,13 +51,12 @@ div li a {
   text-decoration: none;
 }
 
-div li a:hover {
+.navigateur li a:hover {
   background-color: green;
 }
-.row {
-  display: flex;
-}
+
 .row > div {
   flex: 1;
   border: 1px solid;
+  margin: 5px;
 }
